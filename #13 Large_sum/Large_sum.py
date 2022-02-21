@@ -20,7 +20,6 @@ def numadd(l):
     print(sum)            
 
 
-
     
 
 

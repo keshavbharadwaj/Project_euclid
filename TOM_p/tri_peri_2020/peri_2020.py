@@ -1,6 +1,6 @@
 def perimeter_2020(x, y, z):
     if x + y + z == 2020:
-        print(x, y, z)
+        # print(x, y, z)
         return 1
     else:
         return 0
