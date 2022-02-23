@@ -6,8 +6,8 @@ Basic of Class and Object
 from Student import Student
 
 # Student Object
-student1 = Student("Stacy", "Nano", 3.6, False)
-student2 = Student("Adam", "Mech", 3.2, True)
+student1 = Student("Stacy", "Nano", False)
+student2 = Student("Adam", "Mech", True)
 # The values are getting passed into the init function.
 # Passed values are getting stored inside the respective name, major ....
 # Actual Obj.name = name passed
@@ -15,13 +15,13 @@ student2 = Student("Adam", "Mech", 3.2, True)
 
 # Access the information inside the object
 print(student1.name)
-print(student1.gpa)
+# print(student1.gpa)
 
 print(student2.name)
 print(student2.is_on_probation)
 
-print("Honors: ", student1.on_honor_roll())
-print("Honors: ", student2.on_honor_roll())
+print("Honors: ", student1.on_honor_roll(3.6))
+print("Honors: ", student2.on_honor_roll(3.2))
 
 
 """
